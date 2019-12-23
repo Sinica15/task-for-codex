@@ -199,13 +199,13 @@
       }
     },
     created: function () {
-      this.drawRectangle(45, 40, 5, 10);
-      this.drawRectangle(25, 5, 15, 15);
-      this.drawRectangle(20, 20, 40, 27);
-      this.drawRectangle(2, 28, 20, 34);
+      // this.drawRectangle(45, 40, 5, 10);
+      // this.drawRectangle(25, 5, 15, 15);
+      // this.drawRectangle(20, 20, 40, 27);
+      // this.drawRectangle(2, 28, 20, 34);
       // this.drawRectangle(30, 28, 50, 34);
-      this.bucketFill(47, 35, 'q');
-      this.bucketFill(43, 35, 'k');
+      // this.bucketFill(47, 35, 'q');
+      // this.bucketFill(43, 35, 'k');
     },
     watch: {
       drawAction: function () {
