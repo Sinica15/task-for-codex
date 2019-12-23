@@ -113,9 +113,9 @@
         }
         this.drawLine(x1, y1, ss.x, ss.y);
 
-        this.drawSymbol = 'Ж';
-        this.paintOutDots([{x: x1, y: y1}]);
-        this.drawSymbol = c;
+        // this.drawSymbol = 'Ж';
+        // this.paintOutDots([{x: x1, y: y1}]);
+        // this.drawSymbol = c;
 
         filing.apply(this, [dotsArr, "vertical"]);
 
@@ -205,7 +205,7 @@
       // this.drawRectangle(2, 28, 20, 34);
       // this.drawRectangle(30, 28, 50, 34);
       // this.bucketFill(47, 35, 'q');
-      // this.bucketFill(43, 35, 'k');
+      // this.bucketFill(1, 1, 'k');
     },
     watch: {
       drawAction: function () {
