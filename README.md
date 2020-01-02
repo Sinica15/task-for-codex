@@ -1,9 +1,12 @@
 Task For Codex
 ==============
 
-> A Vue.js project
+> Created using Vue.js
+
+App for drawing simple figure, using for drawing pseudographics symbols
 
 ![app in work](https://raw.githubusercontent.com/Sinica15/task-for-codex/master/forRM/app_in_work.png)
+## Commands which can used
 
 C w h​ (C 20 25): create canvas with width w and height h.
 
@@ -16,15 +19,15 @@ B x y c (B 1 2 c): fill all area (x,y) color ("colour", c), working like a bucke
 ## Build Setup
 
 ``` bash
-# install dependencies
+# Install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# Serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
+# Build for production with minification
 npm run build
 
-# run unit tests
+# Run unit tests
 npm run unit
 ```
