@@ -44,8 +44,8 @@
             if (commArr.length < 3) wrongCommand(command, "ned");
             commandObj = {
               type: "canvas",
-              w: isNumber(commArr[1]),
-              h: isNumber(commArr[2])
+              w: isNumber(commArr[1]) + 1,
+              h: isNumber(commArr[2]) + 1
             };
             break;
           case 'L':
